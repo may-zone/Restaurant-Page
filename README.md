@@ -19,10 +19,10 @@ The project demonstrates dynamic page rendering using JavaScript modules — no 
 📦 restaurant-website
 ├── dist/
 ├── src/
-│ ├── images/
-│ ├── modules/
-│ ├── style.css
-│ └── script.js
+│   ├── images/
+│   ├── modules/
+│   ├── style.css
+│   └── script.js
 ├── package.json
 ├── webpack.config.js
 └── README.md
