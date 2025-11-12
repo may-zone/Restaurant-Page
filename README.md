@@ -6,17 +6,16 @@ The project demonstrates dynamic page rendering using JavaScript modules — no 
 ---
 
 ## 🚀 Features
-- 🧭 **Tabbed navigation** between Home, Menu, and About pages
-- 🍕 **Dynamic content loading** — everything is rendered by JavaScript (no static HTML pages)
-- 💅 **Clean modern UI** with responsive layout
-- ⚙️ **Webpack bundling** for JS, CSS, and images
-- 🔥 **Live reloading** during development with Webpack Dev Server
-
+- 🧭 **Tabbed navigation** between Home, Menu, and About pages  
+- 🍕 **Dynamic content loading** — everything is rendered by JavaScript (no static HTML pages)  
+- 💅 **Clean modern UI** with responsive layout  
+- ⚙️ **Webpack bundling** for JS, CSS, and images  
+- 🔥 **Live reloading** during development with Webpack Dev Server  
 
 ---
 
 ## 🧩 Project Structure
-‍‍‍```
+```text
 📦 restaurant-website
 ├── dist/
 ├── src/
