@@ -27,3 +27,7 @@ document.getElementById('about').addEventListener('click',loadAbout);
 
 
 
+const footer = document.createElement('footer');
+footer.classList.add('footer');
+footer.textContent = "All this shit maded by May.";
+document.body.appendChild(footer);
