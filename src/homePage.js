@@ -29,5 +29,4 @@ document.body.prepend(header);
 contentDiv.appendChild(hometittle);
 contentDiv.appendChild(contentImg);
 content.appendChild(imgBullshits);
-
 }

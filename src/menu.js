@@ -2,6 +2,7 @@ import pizzaImg from "./images/pizza.svg"
 import sandwichImg from "./images/sandwich.svg"
 import tacoImg from "./images/taco.svg"
 
+export function loadMenu () {
 const content = document.getElementById('content');
 content.innerHTML = "";
 
@@ -10,7 +11,7 @@ const menuSide = document.createElement('div');
 menuSide.classList.add('menuSide');
 content.appendChild(menuSide);
 
-function createCard (imgSrc, title,description, price ){
+  function createCard (imgSrc, title,description, price ){
     const item =document.createElement('div');
     item.classList.add('item');
 
@@ -42,3 +43,4 @@ const sandwich = createCard (sandwichImg, 'Sandwich','Crispy bread, tender beef,
 menuSide.appendChild(pizza);
 menuSide.appendChild(taco);
 menuSide.appendChild(sandwich);
+}
