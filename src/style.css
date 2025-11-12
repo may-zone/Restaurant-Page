@@ -13,7 +13,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem;
 }
 
 /* === Navigation === */
@@ -54,7 +53,8 @@ nav button:hover {
 #content {
   max-width: 900px;
   text-align: center;
-  margin-top: 3rem;
+  padding-bottom: 60px;
+
 }
 
 #content h2 {
@@ -135,6 +135,7 @@ nav button:hover {
   padding: 0.7rem 0;
   font-size: 1rem;
   border-top: 1px solid rgba(0,0,0,0.05);
+  cursor: pointer;
 }
 
 .about-section {
