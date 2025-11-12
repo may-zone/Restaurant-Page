@@ -16,3 +16,11 @@ document.body.prepend(header);
 const content = document.createElement('div');
 content.id='content';
 document.body.appendChild(content);
+
+const contentDiv = document.getElementById('content');
+
+const contentImg = document.createElement('img');
+contentImg.src = "./images/res.jpg";
+contentImg.alt = "Restaurant image of benjamin cheng in unsplash.com";
+contentDiv.appendChild(contentImg);
+
