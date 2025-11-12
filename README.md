@@ -16,6 +16,7 @@ The project demonstrates dynamic page rendering using JavaScript modules — no 
 ---
 
 ## 🧩 Project Structure
+‍‍‍```
 📦 restaurant-website
 ├── dist/
 ├── src/
@@ -26,6 +27,7 @@ The project demonstrates dynamic page rendering using JavaScript modules — no 
 ├── package.json
 ├── webpack.config.js
 └── README.md
+```
 ---
 
 ## 🧑‍💻 Author
